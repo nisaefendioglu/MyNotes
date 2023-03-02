@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="img_url">Img Url</string>
+    <string name="title">Title</string>
+    <string name="type_here">Type here</string>
+    <string name="no_notes_available">No notes available!</string>
+    <string name="edit_note">edited :</string>
+    <string name="updated_note">Note Updated!</string>
+    <string name="warning_title">Enter title name!</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="delete_message">Are you sure want to delete this note?</string>
+    <string name="deleted">Note deleted ❌</string>
+    <string name="cancel">CANCEL</string>
+    <string name="enter_note_title">Enter note title ⚠️</string>
+    <string name="saved_note">Note saved successfully 🎉 </string>
+</resources>
