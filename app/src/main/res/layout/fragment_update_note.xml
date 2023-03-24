@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="?attr/colorOnPrimary"
     tools:context="com.nisaefendioglu.noteapp.fragments.UpdateNoteFragment">
 
     <LinearLayout
@@ -17,7 +17,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="16dp"
-            android:background="@color/white"
             android:elevation="8dp"
             app:cardCornerRadius="5dp">
 
@@ -36,7 +35,7 @@
                     android:hint="@string/title"
                     android:inputType="text"
                     android:minHeight="48dp"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSecondary"
                     android:textSize="20sp" />
 
                 <EditText
@@ -59,7 +58,7 @@
                     android:gravity="start|top"
                     android:hint="@string/type_here"
                     android:inputType="textMultiLine"
-                    android:textColor="@color/black"
+                    android:textColor="?attr/colorOnSecondary"
                     android:textSize="16sp" />
 
             </LinearLayout>

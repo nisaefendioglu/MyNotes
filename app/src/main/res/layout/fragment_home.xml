@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="?attr/colorOnPrimary"
     android:padding="8dp"
     tools:context="com.nisaefendioglu.noteapp.fragments.HomeFragment">
 
@@ -17,7 +17,7 @@
         android:backgroundTint="@color/black"
         android:clickable="true"
         android:src="@drawable/ic_add"
-        android:tintMode="@color/white"
+        android:tintMode="?attr/colorOnPrimary"
         app:borderWidth="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +30,7 @@
         android:gravity="center"
         android:padding="50dp"
         android:text="@string/no_notes_available"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnSecondary"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp" />
