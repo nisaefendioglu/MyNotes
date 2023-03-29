@@ -1,9 +1,9 @@
-package com.nisaefendioglu.noteapp.viewModel
+package com.nisaefendioglu.mynotes.viewModel
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.nisaefendioglu.noteapp.repository.NoteRepository
+import com.nisaefendioglu.mynotes.repository.NoteRepository
 
 class NoteViewModelProviderFactory(
     val app: Application,

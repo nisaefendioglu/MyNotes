@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp
+package com.nisaefendioglu.mynotes
 
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.LiveData

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.nisaefendioglu.noteapp.fragments.HomeFragment"
+        android:name="com.nisaefendioglu.mynotes.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/newNoteFragment"
-        android:name="com.nisaefendioglu.noteapp.fragments.AddNoteFragment"
+        android:name="com.nisaefendioglu.mynotes.fragments.AddNoteFragment"
         android:label="fragment_add_note"
         tools:layout="@layout/fragment_add_note">
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/updateNoteFragment"
-        android:name="com.nisaefendioglu.noteapp.fragments.UpdateNoteFragment"
+        android:name="com.nisaefendioglu.mynotes.fragments.UpdateNoteFragment"
         android:label="fragment_update_note"
         tools:layout="@layout/fragment_update_note">
         <action
@@ -53,7 +53,7 @@
 
         <argument
             android:name="note"
-            app:argType="com.nisaefendioglu.noteapp.model.NoteModel"
+            app:argType="com.nisaefendioglu.mynotes.model.NoteModel"
             app:nullable="true" />
     </fragment>
 </navigation>

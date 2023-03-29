@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp
+package com.nisaefendioglu.mynotes
 
 import org.junit.Test
 

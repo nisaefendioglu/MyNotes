@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="?attr/colorOnPrimary"
     android:padding="8dp"
-    tools:context="com.nisaefendioglu.noteapp.fragments.HomeFragment">
+    tools:context="com.nisaefendioglu.mynotes.fragments.HomeFragment">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAddNote"

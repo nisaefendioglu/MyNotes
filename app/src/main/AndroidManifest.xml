@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nisaefendioglu.noteapp">
+    package="com.nisaefendioglu.mynotes">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NoteApp">
         <activity
-            android:name="com.nisaefendioglu.noteapp.view.SplashScreen"
+            android:name="com.nisaefendioglu.mynotes.view.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.nisaefendioglu.noteapp.view.MainActivity" />
+        <activity android:name="com.nisaefendioglu.mynotes.view.MainActivity" />
     </application>
 
 </manifest>

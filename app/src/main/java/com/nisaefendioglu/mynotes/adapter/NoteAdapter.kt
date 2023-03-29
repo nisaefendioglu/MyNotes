@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp.adapter
+package com.nisaefendioglu.mynotes.adapter
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.nisaefendioglu.noteapp.databinding.NoteItemBinding
-import com.nisaefendioglu.noteapp.fragments.HomeFragmentDirections
-import com.nisaefendioglu.noteapp.model.NoteModel
+import com.nisaefendioglu.mynotes.databinding.NoteItemBinding
+import com.nisaefendioglu.mynotes.fragments.HomeFragmentDirections
+import com.nisaefendioglu.mynotes.model.NoteModel
 import java.util.Random
 
 class NoteAdapter : RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {

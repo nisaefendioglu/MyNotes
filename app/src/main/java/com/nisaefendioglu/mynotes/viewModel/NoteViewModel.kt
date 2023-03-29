@@ -1,10 +1,10 @@
-package com.nisaefendioglu.noteapp.viewModel
+package com.nisaefendioglu.mynotes.viewModel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.nisaefendioglu.noteapp.model.NoteModel
-import com.nisaefendioglu.noteapp.repository.NoteRepository
+import com.nisaefendioglu.mynotes.model.NoteModel
+import com.nisaefendioglu.mynotes.repository.NoteRepository
 import kotlinx.coroutines.launch
 
 class NoteViewModel(

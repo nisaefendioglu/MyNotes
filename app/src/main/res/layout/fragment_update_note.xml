@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/colorOnPrimary"
-    tools:context="com.nisaefendioglu.noteapp.fragments.UpdateNoteFragment">
+    tools:context="com.nisaefendioglu.mynotes.fragments.UpdateNoteFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout"

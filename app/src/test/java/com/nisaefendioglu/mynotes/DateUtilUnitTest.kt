@@ -1,6 +1,6 @@
-package com.nisaefendioglu.noteapp
+package com.nisaefendioglu.mynotes
 
-import com.task.noteapp.util.getCurrentDateFormatted
+import com.nisaefendioglu.mynotes.util.getCurrentDateFormatted
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
 import java.text.SimpleDateFormat

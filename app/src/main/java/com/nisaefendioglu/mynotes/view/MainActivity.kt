@@ -1,13 +1,13 @@
-package com.nisaefendioglu.noteapp.view
+package com.nisaefendioglu.mynotes.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import com.nisaefendioglu.noteapp.databinding.ActivityMainBinding
-import com.nisaefendioglu.noteapp.db.NoteDb
-import com.nisaefendioglu.noteapp.repository.NoteRepository
-import com.nisaefendioglu.noteapp.viewModel.NoteViewModel
-import com.nisaefendioglu.noteapp.viewModel.NoteViewModelProviderFactory
+import com.nisaefendioglu.mynotes.databinding.ActivityMainBinding
+import com.nisaefendioglu.mynotes.db.NoteDb
+import com.nisaefendioglu.mynotes.repository.NoteRepository
+import com.nisaefendioglu.mynotes.viewModel.NoteViewModel
+import com.nisaefendioglu.mynotes.viewModel.NoteViewModelProviderFactory
 
 class MainActivity : AppCompatActivity() {
 

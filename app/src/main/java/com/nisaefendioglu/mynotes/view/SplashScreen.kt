@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp.view
+package com.nisaefendioglu.mynotes.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.WindowManager
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.nisaefendioglu.noteapp.R
+import com.nisaefendioglu.mynotes.R
 
 class SplashScreen : AppCompatActivity() {
 

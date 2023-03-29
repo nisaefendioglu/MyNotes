@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp.model
+package com.nisaefendioglu.mynotes.model
 
 import android.os.Parcelable
 import androidx.room.Entity

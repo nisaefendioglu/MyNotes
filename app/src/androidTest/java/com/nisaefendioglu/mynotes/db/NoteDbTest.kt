@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp.db
+package com.nisaefendioglu.mynotes.db
 
 import androidx.room.Room
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
@@ -7,8 +7,8 @@ import org.junit.runner.RunWith
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import com.google.common.truth.Truth.assertThat
-import com.nisaefendioglu.noteapp.getOrAwaitValue
-import com.nisaefendioglu.noteapp.model.NoteModel
+import com.nisaefendioglu.mynotes.getOrAwaitValue
+import com.nisaefendioglu.mynotes.model.NoteModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.runBlocking
 import org.junit.After

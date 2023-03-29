@@ -1,7 +1,7 @@
-package com.nisaefendioglu.noteapp.repository
+package com.nisaefendioglu.mynotes.repository
 
-import com.nisaefendioglu.noteapp.db.NoteDb
-import com.nisaefendioglu.noteapp.model.NoteModel
+import com.nisaefendioglu.mynotes.db.NoteDb
+import com.nisaefendioglu.mynotes.model.NoteModel
 
 class NoteRepository(private val db: NoteDb) {
     suspend fun addNote(note: NoteModel) = db.getNoteDao().addNote(note)

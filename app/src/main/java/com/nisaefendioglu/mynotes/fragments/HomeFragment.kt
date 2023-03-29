@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp.fragments
+package com.nisaefendioglu.mynotes.fragments
 
 import android.os.Bundle
 import android.view.*
@@ -8,12 +8,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.nisaefendioglu.noteapp.R
-import com.nisaefendioglu.noteapp.adapter.NoteAdapter
-import com.nisaefendioglu.noteapp.databinding.FragmentHomeBinding
-import com.nisaefendioglu.noteapp.model.NoteModel
-import com.nisaefendioglu.noteapp.view.MainActivity
-import com.nisaefendioglu.noteapp.viewModel.NoteViewModel
+import com.nisaefendioglu.mynotes.R
+import com.nisaefendioglu.mynotes.adapter.NoteAdapter
+import com.nisaefendioglu.mynotes.databinding.FragmentHomeBinding
+import com.nisaefendioglu.mynotes.model.NoteModel
+import com.nisaefendioglu.mynotes.view.MainActivity
+import com.nisaefendioglu.mynotes.viewModel.NoteViewModel
 
 class HomeFragment : Fragment(R.layout.fragment_home), SearchView.OnQueryTextListener,
     MenuProvider {

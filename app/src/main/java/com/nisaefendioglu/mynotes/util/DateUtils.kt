@@ -1,4 +1,4 @@
-package com.nisaefendioglu.noteapp.util
+package com.nisaefendioglu.mynotes.util
 
 import java.text.SimpleDateFormat
 import java.util.*

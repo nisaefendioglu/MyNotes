@@ -1,8 +1,8 @@
-package com.nisaefendioglu.noteapp.db
+package com.nisaefendioglu.mynotes.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.nisaefendioglu.noteapp.model.NoteModel
+import com.nisaefendioglu.mynotes.model.NoteModel
 
 @Dao
 interface NoteDao {
