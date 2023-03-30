@@ -3,7 +3,7 @@ MyNotes, which has a simple and colorful interface, your notes are always with y
 
 ## Google Play Store : 
 
-[![Get it on Google Play](https://play.google.com/intl/en_us/badges/images/badge_new.png)](https://play.google.com/store/apps/details?id=com.nisaefendioglu.noteapp)
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/images/badge_new.png)](https://play.google.com/store/apps/details?id=com.nisaefendioglu.mynotes)
 
 Screenshots of the app :
 
