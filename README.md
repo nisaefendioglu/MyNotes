@@ -1,4 +1,4 @@
-# Note-App
+# MyNotes
 MyNotes, which has a simple and colorful interface, your notes are always with you.
 
 ## Google Play Store : 
